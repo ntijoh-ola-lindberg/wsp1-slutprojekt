@@ -35,6 +35,11 @@ Du får välja att bygga vad du vill så länge det är rimliga projekt. Du kan 
 - Under projektet kommer vi ha genomgångar och avstämningar för fler tekniker och avstämningsuppgifter. Jag har planerat att vi gör minst sekvensdiagram och E/R diagram.
 - På vägen kommer du få löpande tips för hur du kan göra koden snyggare, bättre och lättare att hantera. Främst via loggboken och Github.
 
+## Lärandemål
+- Förstå hur de olika delarna i webbappen hänger ihop
+- Kunna förklara alla steg när en användare ändrar informationen
+- Arbeta med självständigt med utveckling och felsökning jämfört med tidigare projekt
+
 ### 🗒️ Projektplan
 
 Alla skapar en projektplan som innehåller minst följande 4 punkter. Du skriver den i din loggbok. Alla bör uppdateras efter hand som projektet växer.
@@ -46,33 +51,14 @@ Alla skapar en projektplan som innehåller minst följande 4 punkter. Du skriver
 
 ### Bedömning
 
-A-F [enligt beskrivning](https://github.com/ntijoh/WTF24/blob/main/Bed%C3%B6mning%20Webbserver%201.md)
-
-### Lektionsplanering
-
-| Vecka 	| Vad                                    	    |
-|-------	|---------------------------------------------|
-| 3     	| Övning i brainstrorming. Projektbeskrivning ca 1/2 A4 i loggboken.              |
-| 4     	| Projektstart                                |
-| 5     	| Arbete                                 	    |
-| 6   	  | Arbete                              	      |
-| 7     	| Lov                                 	      |
-| 8     	| Arbete                                 	    |
-| 9     	| Arbete: Börja markera bedömningshandledning |
-| 10     	| Arbete                                 	    |
-| 11     	| Arbete                                 	    |
-| 12     	| Arbete                                 	    |
-| 13     	| Arbete                                 	    |
-| 14    	| Arbete                                 	    |
-| 15     	| Slutinlämning                               |
-| 16     	| Lov                                 	      |
-| 17     	| Lov                                 	      |
-| 18    	| Ev. komplettering                           |
-| 19      | Ev. komplettering                           |
-| 20      | Betygsinfo                                  |
+A-F Beskrivning finns på Classroom
 
 ### Installation
 
-- Ladda ner de biblotek (tex. `SQLite`) du behöver med `bundle` (eller `bundle install` som är samma sak)
-- Starta appen med `rake dev`
-- Kör seeder-filen med `rake seed`
+1. `bundle install` | Installerar de biblotek (tex. SQLite) du behöver
+2. `rake` | Startar appen. Finns det ingen databas skapas en ny i `db/sqlite.db`
+3. `ctrl + c` | Stänger webbservern
+4. `rake seed` | Återställer databasen från seed-filen
+5. `rake kill` | Stänger av alla Ruby om du t.ex. har problem att få igång webbservern med felmeddelande ungefär som `Address already in use - bind(2) for 0.0.0.0:9292` 
+
+Använd verktyget `DB Browser for SQLite` för att titta på, arbeta fram och testa SQL-kod.%       

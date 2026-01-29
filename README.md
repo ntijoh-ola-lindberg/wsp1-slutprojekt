@@ -45,7 +45,7 @@ Du får välja att bygga vad du vill så länge det är rimliga projekt. Du kan 
 Alla skapar en projektplan som innehåller minst följande 4 punkter. Du skriver den i din loggbok. Alla bör uppdateras efter hand som projektet växer.
 
 1. __Projektbeskrivning__ Beskriv vad applikationen ska kunna göra och vilka olika delar av applikationen som finns. Vem ska använda applikationen? Vilka tekniska lösningar använder du (frontend, backend, databas, versionshantering)? Hur hänger delarna ihop?
-2. __Vyer__ Gärna blyertskisser på papper. Minst 30 min skissande.
+2. __Vyer__ Blyertskisser på papper.
 3. __Databas__ Bild på detaljerat ER-diagram. Kan utvecklas under projektets gång men du behöver ha arbeta fram en grund här.
 4. __Arkitektur__ Beskriv filer och mappar - vad gör/innehåller de? Skrivs efter hand.
 
